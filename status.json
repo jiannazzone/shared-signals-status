@@ -6,7 +6,7 @@
     {
       "name": "Live Spots",
       "status": "degraded_performance",
-      "detail": "Cloudflare, which serves the Live Spots API was experiencing issues, but they seem to have resolved."
+      "detail": "This is a sample status notification. It will be displayed with there are issues with the Live Spots API. Once you dismiss it, it should not return until the status changes."
     },
     {
       "name": "Live Spots Database",
