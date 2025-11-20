@@ -1,7 +1,7 @@
 {
   "status_code": "major_outage",
   "status_message": "Issues with the live spots API",
-  "last_updated": "2025-11-18T22:22:00Z",
+  "last_updated": "2025-11-20T00:42:22Z",
   "components": [
     {
       "name": "Live Spots",
