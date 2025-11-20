@@ -1,17 +1,17 @@
 {
-  "status_code": "major_outage",
-  "status_message": "The PSK reporter service itself is down. No new spots have been seen by my server since around 1600 UTC.",
-  "last_updated": "2025-11-20T01:33:37Z",
+  "status_code": "operational",
+  "status_message": "All systems functioning normally.",
+  "last_updated": "2025-11-20T00:42:22Z",
   "components": [
     {
       "name": "Live Spots",
-      "status": "major_outage",
-      "detail": "The API that serve live spots is functioning, however the underlying data source is not sending out data. I am waiting for more information."
+      "status": "operational",
+      "detail": "My data source has fixed whatever issue it was having. Live spots are being served to the app successfully."
     },
     {
       "name": "Live Spots Database",
-      "status": "major_outage",
-      "detail": "The underlying MQTT service is not serving data."
+      "status": "operational",
+      "detail": "The underlying data source is working again. I have also made some under-the-hood changes to how I ingest and filter data to make things more robust and faster-loading on my end."
     }
   ]
 }
