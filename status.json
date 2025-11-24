@@ -5,13 +5,13 @@
   "components": [
     {
       "name": "Live Spots",
-      "status": "operational",
-      "detail": "My data source has fixed whatever issue it was having. Live spots are being served to the app successfully."
+      "status": "under_maintenance",
+      "detail": "I am taking the secondary server offline now that migration is complete. If you are on an older version of the app, you may need to update to v0.5."
     },
     {
       "name": "Live Spots Database",
       "status": "operational",
-      "detail": "The underlying data source is working again. I have also made some under-the-hood changes to how I ingest and filter data to make things more robust and faster-loading on my end."
+      "detail": "All systems functioning normally."
     }
   ]
 }
